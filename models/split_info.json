@@ -1,0 +1,23 @@
+{
+  "train_files": [
+    "E02_B01_L50_DBnorm_R3.xlsx",
+    "E04_B01_L76_DBnorm_R3.xlsx",
+    "E05_B01_L100_DBnorm_R1.xlsx",
+    "E06_B01_L76_DBnom_R1.xlsx",
+    "E07_B01_L99_DBnom_R3.xlsx",
+    "E08_B01_L55_DBnom_R1.xlsx",
+    "E10_B01_L32_DBnorm_R1.xlsx",
+    "E11_B01_L32_DBnorm_R2.xlsx"
+  ],
+  "val_files": [
+    "E01_B01_L75_DBnorm_R2.xlsx",
+    "E03_B01_L33_DBnorm_R3.xlsx",
+    "E09_B01_L50_DBnom_R2.xlsx",
+    "E12_B01_L99_DBnorm_R2.xlsx"
+  ],
+  "train_windows": 5850,
+  "val_windows": 2934,
+  "window_size": 64,
+  "window_stride": 16,
+  "dropped_rows": 15
+}
